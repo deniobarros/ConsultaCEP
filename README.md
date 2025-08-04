@@ -1,9 +1,29 @@
-# Consulta CEP
-MVP (Minimum Viable Product) de consulta de CEP utilizando o WS público
+# MVP Consulta CEP
 
-## 📚  Descrição 
-O projeto foi desenvolvido utilizando a arquitetura MVC para manter o desacoplamento, padrão de desing Fluent Interface para melhorar a legibilidade do código e o padrão de projeto Factory Methods para instanciar a classe de conexão SQLite. A maioria das classes foram implementadas utilizando interface.
-Foi utilizado também: POO, Clean Code e SOLID.
+**MVP (Minimum Viable Product)** de consulta de CEP utilizando o WebService público [ViaCEP](https://viacep.com.br/).
 
-## 📢 Como executar
-Será preciso antes de abrir o projeto instalar o componente BuscaCep.dpk dentro do diretório Componentes. O arquivo executável esta na pasta Win32/Release arquivo BuscadorEndereco.exe. O projeto foi desenvolvido no Delphi 12 Community Edition.
+## 📚 Descrição
+
+Este projeto foi desenvolvido com foco em boas práticas de desenvolvimento e organização de código, utilizando:
+
+- **Arquitetura MVC** para garantir o desacoplamento entre as camadas;
+- **Padrão Fluent Interface** para facilitar a leitura e encadeamento de métodos;
+- **Padrão Factory Method** para a criação da instância de conexão com o SQLite;
+- **Programação Orientada a Objetos (POO)**;
+- Princípios **SOLID**;
+- Práticas de **Clean Code**;
+- Implementação baseada em **interfaces**.
+
+- ## 🛠️ Tecnologias utilizadas
+
+- 🧱 **Delphi 12 Community Edition**
+- 🗃️ **SQLite** 
+- 🌐 **API ViaCEP** (WebService público)
+- 🧩 Componentização com **BuscaCep.dpk**
+
+## 🚀 Como executar
+
+1. Abra o Delphi 12 CE;
+2. Instale o componente `BuscaCep.dpk` localizado na pasta `/Componentes`;
+3. Compile o projeto principal;
+4. O executável gerado será `BuscadorCep.exe`, localizado na pasta `Win32/Release`.
